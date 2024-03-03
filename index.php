@@ -109,7 +109,7 @@ include_once("constants.php");
             <div class="flex flex-col sm:flex-col md:flex-row lg:flex-row">
                 <div class="hidden mt-6 md:mt-0 h-96 md:h-auto md:w-1/2 relative lg:mt-0 ltr:pr-6 rtl:pl-6 sm:ltr:pl-20 sm:rtl:pl-20 sm:flex justify-end sm:block">
                     <div class="w-5/6 h-full">
-                        <img class="inset-0 absolute object-contain object-bottom z-10 w-auto h-full pt-10" src="../images/hero_image.png" alt="Hero Image" role="img" />
+                        <img class="inset-0 absolute object-contain object-bottom z-10 w-auto h-full pt-10" src="./images/hero_image.png" alt="Hero Image" role="img" />
                     </div>
                 </div>
                 <div class="flex flex-col items-start lg:w-6/12 md:w-6/12 px-4 lg:px-0 md:ml-8 justify-center py-12 sm:py-36">
@@ -314,7 +314,7 @@ include_once("constants.php");
     <!--Footer-->
     <footer class=" " style="background-color: #32064a;">
         <div tabindex="0" aria-label="footer" class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 focus:outline-none mx-auto container flex flex-col items-start sm:items-center justify-center">
-            <img class="h-10" src="../images/black.png" alt="Master Tester">
+            <img class="h-10" src="./images/black.png" alt="Master Tester">
             <div class="text-black flex flex-col md:items-center f-f-l pt-3">
                 <h1 tabindex="0" class="focus:outline-none text-lg text-secondary">Everything You Need For Your Exam Preparation.
                 </h1>
