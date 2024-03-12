@@ -1,5 +1,7 @@
 <?php
-include ("auth_session.php")
+session_start();
+print_r($_SESSION);
+include_once("constants.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,29 +17,28 @@ include ("auth_session.php")
         <?php
         echo "<p> hi, </p>", $_SESSION['username'];
         echo "<p> your user id is, </p>", $_SESSION['id'];
-        $id = $_SESSION['id'];
+        // $id = $_SESSION['dashboard_id'];
         ?>
         <p>You are now at your user dashboard page.</p>
-        <input type="submit" value="Logout" class="btn solid" id=logout />
+        <!-- <input type="submit" value="Logout" class="btn solid" id=logout /> -->
         
     </div>
     <div>
         <p> update your name or delete acount </p>
-        <!-- <a href="http://localhost/minor_project/v2.0/update.php"> -->
-        <input type="submit" value="update" class="btn solid" name=update />
-        <!-- </a> -->
-        <!-- <a href="http://localhost/minor_project/v2.0/delete.php"> -->
-        <input type="submit" value="delete" class="btn solid" name=delete />
-        <!-- </a> -->
+        <a href="<?php $baseURL?>update.php"> update
+        </a>
+        <br>
+        <a href="<?php $baseURL?>delete.php">delete
+        </a>
 
     </div>
 </body>
 
+</html>
 <?php
-echo "the logic doesnot work";
+echo "the logout does not work right now";
 if (isset($_REQUEST['logout'])) {
     echo "logging out";
-    logout();
 }
 if (isset($_REQUEST['update'])) {
     echo "redirecting to update page";
@@ -58,5 +59,3 @@ if (isset($_REQUEST['delete'])) {
 }
 
 ?>
-
-</html>
