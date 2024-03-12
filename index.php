@@ -87,7 +87,7 @@ include_once("constants.php");
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about.html">
+                        <a class="nav-link" href="./about.html">
                             About us
                         </a>
                     </li>
