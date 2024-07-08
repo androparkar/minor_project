@@ -12,7 +12,7 @@ function user_login_check()
     }
 }
 $loginUserId = $_SESSION['id'];
-$loginUserDetails = mysqli_fetch_assoc(mysqli_query($CONN, "SELECT * FROM student WHERE id = '$loginUserId'"));
+$loginUserDetails = mysqli_fetch_assoc(mysqli_query($CONN, "SELECT * FROM user WHERE id = '$loginUserId'"));
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -54,7 +54,7 @@ include_once("constants.php");
     <nav class="navbar navbar-expand-lg border-bottom border-body" style="background-color: #32064a;" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="./images/logo_1.jpg" alt="Logo" width="30" height="24" class="d-inline-block"> Master Tester</a>
+                <img src="./images/black.png" alt="Logo" width="30" height="24" class="d-inline-block"> Master Tester</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
